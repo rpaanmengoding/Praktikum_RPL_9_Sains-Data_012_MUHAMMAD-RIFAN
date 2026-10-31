@@ -1,0 +1,24 @@
+
+# Environment variables dan file rahasia
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+
+# Sistem operasi
+.DS_Store
+Thumbs.db
